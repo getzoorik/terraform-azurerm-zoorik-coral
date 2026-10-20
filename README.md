@@ -1,3 +1,10 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset=".github/brand/zoorik-logo-tagline-rings-opposite-bone.svg">
+    <img alt="Zoorik. Reduce cloud cost, autonomously." src=".github/brand/zoorik-logo-tagline-rings-opposite-navy.svg" width="320">
+  </picture>
+</p>
+
 # terraform-azurerm-zoorik-coral
 
 The Azure permissions the Coral agent needs on one AKS cluster. It creates the same identity, credential, role and assignment that `zoorikctl connect` creates, with the same names and tag, so zoorikctl sees them as already done.
@@ -59,3 +66,8 @@ lifecycle {
 ```
 
 On the cluster's default pool, the same fields sit under `default_node_pool[0]`.
+
+---
+
+<p align="center"><sub><a href="https://zoorik.com">zoorik.com</a> · <a href="https://zoorik.com/docs">Docs</a> · <a href="https://zoorik.com/security">Security</a> · <a href="https://github.com/getzoorik">Zoorik on GitHub</a></sub></p>
+<p align="center"><sub>The Zoorik, Coral and Amoeba names and logos belong to Zoorik Private Limited.</sub></p>
